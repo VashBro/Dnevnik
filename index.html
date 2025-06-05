@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <link rel="stylesheet" href="./Style.css" />
+    <title>Дневник</title>
+
+</head>
+
+<body>
+
+  <h1 class="heading">
+    Дневник
+  </h1>
+
+  <div id="add-content-form">
+    <h2>
+      Добавить контент
+    </h2>
+    <div class="forms">
+        <label for="title">Название:</label>
+        <input type="text" class="addcontentform1" placeholder="Введите название"><br><br>
+
+        <label for="type">Тип:</label>
+        <select id="type">
+            <option value="">--Сделайте выбор--</option>
+            <option value="Текст">Текст</option>
+            <option value="Ссылка">Ссылка</option>
+            <option value="Изображение">Изображение</option>
+        </select><br><br>
+
+        <label for="content">Содержание:</label>
+        <input type="text" id="content" class="addcontentform2" placeholder="Введите содержание"><br><br>
+
+        <label for="status">Статус готовности</label>
+        <select id="status">
+            <option value="">--Сделайте выбор--</option>
+            <option value="Сделано">Сделано</option>
+            <option value="В процессе">В процессе</option>
+            <option value="Не сделано">Не сделано</option>
+        </select><br><br>
+
+        <label for="date">Дата сдачи:</label>
+        <input type="date" class="addcontentform3"><br><br>
+
+    </div>
+  </div>
+
+  <button class ="button">Добавить</button>
+
+  <div id="content-list">
+    <h2>Список контента</h2>
+
+    
+    <div class="filterStatus">
+        <label for="statusFilter">Фильтр по статусу:</label>
+        <select id="statusFilter">
+            <option value="">Все статусы</option>
+            <option value="Сделано">Сделано</option>
+            <option value="В процессе">В процессе</option>
+            <option value="Не сделано">Не сделано</option>
+        </select>
+    </div>
+    <div class="filterDate">
+        <label for="dateFilter">Фильтр по дате:</label>
+        <input type="date" id="dateFilter">
+    </div>
+
+    <div>
+        <button class="clear">Очистить</button>
+        <button class="editall">Редактировать</button>
+    </div>
+
+
+    <div class="table">
+        <table id="result">
+            <thead>
+                <tr>
+                    <th>Название</th>
+                    <th>Тип</th>
+                    <th>Содержание</th>
+                    <th>Статус готовности</th>
+                    <th>Дата сдачи</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>

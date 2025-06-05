@@ -1,0 +1,297 @@
+﻿html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    background: url(picture/backgr.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.heading {
+    background: linear-gradient(to bottom, #944a4e, #6a3031);
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 12px;
+    padding: 20px;
+    font-weight: 1000;
+    text-shadow: 1px 1px 1px black;
+    border-style: solid;
+    border-color: transparent;
+}
+
+h2 {
+    background: linear-gradient(to bottom, #944a4e, #6a3031);
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+    width: 50%;
+    border-radius: 12px;
+    padding: 10px;
+    font-weight: 600;
+    margin-left: 25%;
+    text-shadow: 1px 1px 1px black;
+    border-style: solid;
+    border-color: transparent;
+}
+
+.forms {
+    box-sizing: border-box;
+    width: 50%;
+    height: 230px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 550;
+    border-radius: 12px;
+    color: white;
+    background: linear-gradient(to bottom, #f0a09d, #d37774);
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-style: solid;
+    border-color: transparent;
+    text-shadow: 1px 1px 1px black;
+}
+
+.addcontentform1 {
+    font-size: 18px;
+}
+
+.addcontentform2 {
+    font-size: 18px;
+}
+
+.addcontentform3 {
+    font-size: 18px;
+}
+
+
+.button {
+    margin: 20px;
+    background: linear-gradient(to bottom, #f0a09d, #d37774);
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 12px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.1s ease;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-shadow: 1px 1px 1px black;
+}
+    .button:active {
+        background: linear-gradient(to bottom, #d37774, #944a4e);
+        border-style: solid;
+        border-color: transparent;
+        color: gray;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 10%);
+        text-shadow: 1px 1px 1px black;
+    }
+
+.clear {
+    background: linear-gradient(to bottom, #f0a09d, #d37774);
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 12px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.1s ease;
+    position: relative;
+    left: 50%;
+    transform: translate(220%, -40%);
+    text-shadow: 1px 1px 1px black;
+}
+
+    .clear:active {
+        background: linear-gradient(to bottom, #d37774, #944a4e);
+        border-style: solid;
+        border-color: transparent;
+        color: gray;
+        position: relative;
+        left: 50%;
+        transform: translate(220%, -37%);
+        text-shadow: 1px 1px 1px black;
+    }
+
+.editall {
+    background: linear-gradient(to bottom, #f0a09d, #d37774);
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 12px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.1s ease;
+    position: relative;
+    left: 50%;
+    transform: translate(-20%, -40%);
+    text-shadow: 1px 1px 1px black;
+}
+
+    .editall:active {
+        background: linear-gradient(to bottom, #d37774, #944a4e);
+        border-style: solid;
+        border-color: transparent;
+        color: gray;
+        position: relative;
+        left: 50%;
+        transform: translate(-20%, -37%);
+        text-shadow: 1px 1px 1px black;
+    }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-style: solid;
+    border-color: transparent;
+}
+
+th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+}
+
+th {
+        background-color: #f2f2f2;
+}
+
+.filterStatus {
+    transform: translate(0%, 50%);
+    color: white;
+    background: linear-gradient(to bottom, #f0a09d, #d37774);
+    border-style: solid;
+    border-color: transparent;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 5px;
+    width: 28%;
+    height: 25px;
+    font-size: 18px;
+    padding: 2px 5px;
+}
+
+.filterDate {
+    transform: translate(0%, 80%);
+    color: white;
+    background: linear-gradient(to bottom, #f0a09d, #d37774);
+    border-style: solid;
+    border-color: transparent;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 5px;
+    width: 28%;
+    height: 25px;
+    font-size: 18px;
+    padding: 2px 5px;
+}
+
+thead,
+tfoot {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+    thead th,
+    tfoot th,
+    tfoot td {
+        background: linear-gradient(to bottom, #f0a09d, #d37774);
+        border-style: solid;
+        border-color: transparent;
+        border-radius: 5px;
+    }
+
+
+tbody tr:nth-child(odd) {
+    background-color: white;
+}
+tbody tr:nth-child(even) {
+    background-color: white;
+}
+
+
+tbody tr:hover {
+    background-color: #f5d0cf !important;
+    transition: background-color 0.2s;
+}
+
+
+
+/* Стили для кнопок действий */
+.edit-btn {
+    color: #5bc0de;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.delete-btn {
+    color: #d9534f;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+    .edit-btn:hover, .delete-btn:hover {
+        transform: scale(1.2);
+        transition: transform 0.2s;
+    }
+
+.action-cell {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+
+
+
+/* Стили для статусов */
+td[data-status="Не сделано"] {
+    background-color: #ffcccc !important; /* Красный */
+    color: #cc0000;
+    font-weight: bold;
+}
+
+td[data-status="В процессе"] {
+    background-color: #ffffcc !important; /* Желтый */
+    color: #996600;
+    font-weight: bold;
+}
+
+td[data-status="Сделано"] {
+    background-color: #ccffcc !important; /* Зеленый */
+    color: #006600;
+    font-weight: bold;
+}
+
+/* Убедимся, что цвет сохраняется при наведении */
+tbody tr:hover td[data-status] {
+    opacity: 0.8;
+}
